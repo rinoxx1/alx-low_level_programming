@@ -8,17 +8,17 @@
 
 int main(void)
 {
-	int a = 0, lettre = 'f';
+	int a = 0, lettre = 'a';
 
 	while (a <= 9)
 	{
 		putchar(a + '0');
 		a++;
 	}
-	while (lettre >= 'a')
+	while (lettre <= 'f')
 	{
 		putchar(lettre);
-		lettre--;
+		lettre++;
 	}
 	putchar('\n');
 	return (0);
