@@ -12,7 +12,7 @@ int main(void)
 
 	while (a <= 9)
 	{
-		putchar(a);
+		putchar(a + '0');
 		a++;
 	}
 	while (lettre >= 'a')
@@ -20,6 +20,6 @@ int main(void)
 		putchar(lettre);
 		lettre--;
 	}
-	putchar("\n")
+	putchar('\n')
 	return (0);
 }
