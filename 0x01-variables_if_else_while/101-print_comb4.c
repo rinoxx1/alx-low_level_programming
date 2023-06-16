@@ -7,33 +7,35 @@
 */
 
 int main(void)
-	int digit1 = 0;
-	int digit2, digit3;
+{
+	int a = 0;
+	int b, c;
 
-	while (digit1 <= 9)
+	while (a <= 9)
 	{
-		digit2 = 0;
-		while (digit2 <= 9)
+		b = 0;
+		while (b <= 9)
 		{
-			digit3 = 0;
-			while (digit3 <= 9)
+			c = 0;
+			while (c <= 9)
 			{
-				if (digit1 != digit2 && digit1 < digit2 && digit2 != digit3 && digit2<digit3)
+				if (a != b && a < b && b != c && b < c)
 				{
-					putchar (digit1 + 48);
-					putchar (digit2 + 48);
-					putchar (digit3 + 48);
-					if (digit1 + digit2 + digit3 != 24)
+					putchar (a + 48);
+					putchar (b + 48);
+					putchar (c + 48);
+					if (a + b + c != 24)
 					{
 						putchar(',');
 						putchar(' ');
 					}
 				}
-				digit3++;
+				c++;
 			}
-			digit2++;
+			b++;
 		}
-		digit1++;
+		a++;
 	}
 	putchar('\n');
 	return (0);
+}
