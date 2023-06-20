@@ -9,10 +9,9 @@
 int main(void)
 {
 	float even_sum;
-	int count, n;
 	unsigned long fib1 = 0, fib2 = 1, sum = 0;
 
-	for (count = n; count < n + 1 ; count++)
+	while (1)
 	{
 		sum = fib1 + fib2;
 		if (sum > 4000000)
