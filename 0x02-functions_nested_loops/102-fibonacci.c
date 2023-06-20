@@ -8,20 +8,19 @@
 
 int main(void)
 {
-	float even_sum;
-	int count, n;
+	int count;
 	unsigned long fib1 = 0, fib2 = 1, sum = 0;
 
-	for (count = n; count < n + 1 ; count++)
+	for (count = 0; count < 50; count++)
 	{
 		sum = fib1 + fib2;
-		if (sum > 4000000)
-			break;
-		if ((sum % 2) == 0)
-			even_sum += sum;
+		printf("%lu", sum);
 		fib1 = fib2;
 		fib2 = sum;
+		if (count == 49)
+			printf("\n");
+		else
+			printf(", ");
 	}
-	printf("%.0f\n", even_sum);
 	return (0);
 }
