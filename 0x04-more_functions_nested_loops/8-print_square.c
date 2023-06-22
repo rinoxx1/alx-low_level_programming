@@ -2,7 +2,7 @@
 
 /**
  * print_square - print a square on the terminal
- * @n: number of times the character # should be printed
+ * @size: number of times the character # should be printed
  */
 
 void print_square(int size)
