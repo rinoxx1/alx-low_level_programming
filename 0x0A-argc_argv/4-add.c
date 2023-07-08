@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+
 /**
  * main - entry point
  * @argc: int
@@ -7,7 +8,7 @@
  * Return: return 0 if success
 */
 
-int main(int argc, char const *argv[])
+int main(int argc, char *argv[])
 {
 	int sum = 0;
 	char *c;
