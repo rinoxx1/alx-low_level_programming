@@ -4,7 +4,7 @@
  * main - prints the minimum number of coins
  * @argc: number of commandline arguments
  * @argv: pointer to an array of command line arguments
- * return: 0 to success
+ * Return: 0 to success
 */
 
 int main(int argc, char *argv[])
