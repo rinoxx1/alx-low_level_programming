@@ -1,10 +1,10 @@
 #include <stdio.h>
 
 /**
- * main - entry point
- * @argc: int
+ * main-prints the name of the file
+ * @argc: number of arguments
  * @argv: list
- * return: 0
+ * Return: return 0 if success
 */
 
 int main(int argc, char const *argv[])

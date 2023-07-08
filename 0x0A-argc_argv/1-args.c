@@ -4,7 +4,7 @@
  * main - entry point
  * @argc: int
  * @argv: list
- * return: 0
+ * Return: return 0 if success
 */
 
 int main(int argc, char *argv[] __attribute__((unused)))

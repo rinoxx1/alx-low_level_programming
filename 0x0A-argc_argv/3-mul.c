@@ -4,12 +4,12 @@
  * main - entry point
  * @argc: int
  * @argv: list
- * return: 0
+ * Return: return 0 if success
 */
 
 int main(int argc, char const *argv[])
 {
-        int sum;
+	int sum;
 
 	if (argc == 3)
 	{

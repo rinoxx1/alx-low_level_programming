@@ -4,7 +4,7 @@
  * main - entry point
  * @argc: int
  * @argv: list
- * return: 0
+ * Return: return 0 if success
 */
 
 int main(int argc, char const *argv[])
@@ -13,15 +13,15 @@ int main(int argc, char const *argv[])
 	char *c;
 
 	while (--argc)
-        {
-                for (c = argv[argc]; *c; c++)
+	{
+		for (c = argv[argc]; *c; c++)
 			if (*c < '0' || *c > '9')
 			{
 				ptintf("Error\n");
 				return (1);
 			}
 		sum += atoi(argv[argc]);
-        {
+	{
 	printf("%d\n", sum);
 	return (0);
 }
